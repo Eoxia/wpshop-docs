@@ -1,7 +1,9 @@
 # WPshop avec Dolibarr
 
 Pour gérer l'association et la synchronisation d'un produit entre WPshop et Dolibarr, nous utilisons la métadonnée "**external_id**".
+
 Nous communiquons avec la REST API de Dolibarr et WordPress pour effectuer les associations et synchronisations.
+
 Dolibarr contrôle les données de WPshop. Nous écrasons toujours les données de WP avec celle de Dolibarr.
 
 ## Les différents cas d'association
