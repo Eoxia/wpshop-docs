@@ -76,6 +76,56 @@ Après la réponse de la route, nous ajoutons dans la table llx_wpshop_product u
 * sync_date: La date d'association
 * last_sync_date: La dernière date de synchronisation
 
+### Produit existant sur WPshop uniquement
+
+Pour ce cas la, nous utilisons la fonction "associate_and_synchronize" dans la classe class-doli-synchro du module "doli-synchro".
+
+Cette fonction demande 3 paramètres:
+
+* from: Depuis qu'elle plateforme nous voulons associer. Peut être 'wpshop', 'dolibarr'.
+* wp_id: L'ID de l'entité sur WP
+* entry_id: L'ID de l'entité sur Dolibarr
+
+*Le paramètre from est utile pour la première synchronisation de donnée et permet de choisir si nous voulons écraser les données depuis WPshop ou depuis Dolibarr.*
+
+#### Depuis Dolibarr
+
+La fonction appel la route selon le type de l'entitée, prenons le cas d'un produit:
+
+Récupères les données du produit sur Dolibarr par le biais de la route GET /wpshopapi/products/{id}.
+
+Une fois les données récupérées, nous écrasons les données du produit sur WordPress comme suit:
+
+* title: Le titre du produit depuis Dolibarr
+* price: Le prix HT du produit depuis Dolibarr
+* price_ttc: Le prix TTC du produit depuis Dolibarr
+* tva_tx: Le % de tva du produit depuis Dolibarr
+* date_last_synchro: La dernière date de synchronisation récupérer depuis la table llx_wpshop_product
+* external_id: L'ID du produit depuis Dolibarr
+
+*Rappel: l'association s'effectue grâce à external_id.*
+
+#### Depuis WordPress
+
+### Produit existant sur Dolibarr uniquement
+
+Pour ce cas la, nous utilisons les fonctions suivantes dans WPshop:
+
+* sync_third_parties
+* sync_contacts
+* sync_products
+* sync_proposals
+* sync_orders
+* sync_invoices
+* sync_payments
+
+#### sync_third_parties
+#### sync_contacts
+#### sync_products
+#### sync_proposals
+#### sync_orders
+#### sync_payments
+
 ## Synchronisation
 
 ### Modification d'un produit depuis WPshop
