@@ -6,6 +6,8 @@ Nous communiquons avec la REST API de Dolibarr et WordPress pour effectuer les a
 
 Dolibarr contrôle les données de WPshop. Nous écrasons toujours les données de WP avec celle de Dolibarr.
 
+Lors d'une association d'un produit de WP vers Dolibarr (ou vice versa), une synchronisation s'effectue **toujours** après l'association.
+
 ## Les différents cas d'association
 
 * Nouveau produit depuis WPshop
