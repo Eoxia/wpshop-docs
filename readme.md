@@ -4,8 +4,17 @@ Toute la documentation liée à WPShop 2.
 
 ## Documentation utilisateur
 
+* Commande
 * Configurer Dolibarr avec WPshop
+* Configurer WPshop
+* Panier
+* Produit
+* Mon compte
 * Synchroniser Dolibarr avec WPshop
+* Tableau de bord
+* Tier
+* Tunnel de vente
+* WPshop 1 vers WPshop 2
 
 ## Documentation technique
 
