@@ -8,13 +8,18 @@ Dolibarr contrôle les données de WPshop. Nous écrasons toujours les données 
 
 * Nouveau produit depuis WPshop
 * Nouveau produit depuis Dolibarr
+* Produit existant dans WPshop uniquement
+* Produit existant dans Dolibarr uniquement
 
 ## Les différents cas de synchronisation
 
 * Modification d'un produit depuis WPshop
 * Modification d'un produit depuis Dolibarr
+* Resynchroniser après une désynchronisation
 
-## Nouveau produit depuis WPshop
+## Association
+
+### Nouveau produit depuis WPshop
 
 Nous nous accrochons sur le hook "save_post" de WordPress pour appeler une fonction qui vas communiquer à Dolibarr la création d'un nouveau produit.
 
@@ -37,15 +42,15 @@ Cette route créer un nouveau produit dans dolibarr, et également une entrée d
 
 Cette route nous renvoies les données du nouveau produit dans dolibarr, ou une erreur si la référence (ref) est déjà existante.
 
-### Si la route ne rencontre pas d'erreur
+#### Si la route ne rencontre pas d'erreur
 
 Mise à jour des informations du produit dans WordPress avec les données de dolibarr: prix HT, Taux de TVA, Prix TTC.
 Met la dernière date de synchronisation récupérer depuis la table llx_wpshop_product dans la métadonnée **_date_last_synchro**.
 Met l'ID du produit de dolibarr dans la métadonnée **external_id**.
 
-### Si la route rencontre une erreur
+#### Si la route rencontre une erreur
 
-## Nouveau produit depuis Dolibarr
+### Nouveau produit depuis Dolibarr
 
 Nous nous accrochons sur le hook "PRODUCT_CREATE" de Dolibarr pour appeler une fonction qui vas communiquer à WordPress la création d'un nouveau produit.
 
@@ -67,7 +72,9 @@ Après la réponse de la route, nous ajoutons dans la table llx_wpshop_product u
 * sync_date: La date d'association
 * last_sync_date: La dernière date de synchronisation
 
-## Modification d'un produit depuis WPshop
+## Synchronisation
+
+### Modification d'un produit depuis WPshop
 
 Nous nous accrochons sur le hook "save_post" de WordPress pour appeler une fonction qui vas communiquer à Dolibarr la modification d'un produit.
 
@@ -86,7 +93,7 @@ Une fois que la requête nous renvoies une réponse, nous mettons à jour les in
 
 Puis met la dernière date de synchronisation récupérer depuis la table llx_wpshop_product dans la métadonnée **_date_last_synchro**.
 
-## Modification d'un produit depuis Dolibarr
+### Modification d'un produit depuis Dolibarr
 
 Nous nous accrochons sur le hook "PRODUCT_MODIFY" de Dolibarr pour appeler une fonction qui vas communiquer à WordPress la modification d'un produit.
 
