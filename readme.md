@@ -1,6 +1,6 @@
 # WPShop 2 Documentation
 
-Toute la documentation lié à WPShop 2.
+Toute la documentation liée à WPShop 2.
 
 ## Contribuer
 
