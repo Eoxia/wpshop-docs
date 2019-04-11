@@ -4,7 +4,7 @@ Toute la documentation liée à WPShop 2.
 
 ## Documentation utilisateur
 
-* (https://github.com/Eoxia/wpshop-docs/blob/master/pages/card.md)[Commande]
+* [https://github.com/Eoxia/wpshop-docs/blob/master/pages/order.md](Commande)
 * Configurer Dolibarr avec WPshop
 * Configurer WPshop
 * Panier
