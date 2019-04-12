@@ -85,16 +85,18 @@ La synchronisation en masse récupères **toutes les données de dolibarr** et �
 
 #### Données de base 
 
-WPSHOP            DOLIBARR
-Produit A    !=   Produit A
-Produit B    !=   -
-Produit C    !=   Produit C
--            !=   Produit D
+| WPSHOP    | -- | DOLIBARR  |
+| -------   | -- | --------- |
+| Produit A | != | Produit A |
+| Produit B | != | -         |
+| Produit C | != | Produit C |
+| -         | != | Produit D |
 
 #### Etape création
 
 Cette étape consiste à créer tous les produits WPshop inexistants sur Dolibarr.
 
+WPSHOP            DOLIBARR
 Produit A    !=   Produit A
 Produit B    !=   Produit B
 Produit C    !=   Produit C
@@ -104,6 +106,7 @@ Produit C    !=   Produit C
 
 Cette étape consiste à associer les produits non associé entre eux depuis l'interface du listing des produits sur WPshop.
 
+WPSHOP           DOLIBARR
 Produit A    =   Produit A
 Produit B    =   Produit B
 Produit C    =   Produit C
