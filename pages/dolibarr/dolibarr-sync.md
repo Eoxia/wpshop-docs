@@ -85,7 +85,7 @@ La synchronisation en masse récupères **toutes les données de dolibarr** et �
 
 #### Données de base 
 
-| WPSHOP    | -- | DOLIBARR  |
+| WPSHOP    |    | DOLIBARR  |
 | -------   | -- | --------- |
 | Produit A | != | Produit A |
 | Produit B | != | -         |
