@@ -25,7 +25,7 @@ Après la création du produit, le produit est également créer sur Dolibarr av
 
 Dans le listing des produits sur WPshop, nous pouvons vérifier si le produit est bien associer et synchroniser grâce à deux informations:
 
-
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/wpshop-sync-product.png)
 
 ### Nouveau produit depuis Dolibarr
 
