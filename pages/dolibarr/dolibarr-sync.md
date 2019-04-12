@@ -20,6 +20,13 @@
 
 ### Nouveau produit depuis WPshop
 
+Suivre la procédure pour créer un produit sur WPshop.
+Après la création du produit, le produit est également créer sur Dolibarr avec les mêmes données.
+
+Dans le listing des produits sur WPshop, nous pouvons vérifier si le produit est bien associer et synchroniser grâce à deux informations:
+
+
+
 ### Nouveau produit depuis Dolibarr
 
 ### Produit existant sur WPshop uniquement
