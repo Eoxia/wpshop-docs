@@ -24,9 +24,13 @@
 
 Après la création du produit, la création et l'association du produit vers dolibarr se fait automatiquement.
 
+*Voir le chapitre "Vérifier l'association et la synchronisation d'un produit*
+
 ### Nouveau produit depuis Dolibarr
 
 Après la création d'un produit sur Dolibarr, la création et l'association du produit vers WPshop se fait automatiquement.
+
+*Voir le chapitre "Vérifier l'association et la synchronisation d'un produit*
 
 ### Produit existant sur WPshop uniquement
 
@@ -38,7 +42,19 @@ Pour ce faire, il faut cliquer sur le bouton d'association et de synchronisation
 
 **Voir l'interface de synchronisation** pour plus de détails.
 
+*Voir le chapitre "Vérifier l'association et la synchronisation d'un produit*
+
 ### Produit existant sur Dolibarr uniquement
+
+Nous ne pouvons associer un produit Dolibarr vers WPshop pour le moment.
+
+Cependant, un bouton est disponible sur WPshop pour synchroniser toutes les données de Dolibarr vers WPshop. Celà permet de récupérer les produits existants dans Dolibarr vers WPshop.
+
+Attention, celà synchronise toutes les données Dolibarr: produit, commande, facture...
+
+Le bouton de "Synchronisation" de toutes les donnnées se trouvent dans le Tableau de bord dans le menu WPshop.
+
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/sync-button.png)
 
 ## Synchronisation
 
