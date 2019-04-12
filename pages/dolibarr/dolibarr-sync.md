@@ -51,8 +51,8 @@ Nous ne pouvons associer un produit Dolibarr vers WPshop pour le moment.
 Cependant, un bouton est disponible sur WPshop pour synchroniser toutes les données de Dolibarr vers WPshop. Celà permet de récupérer les produits existants dans Dolibarr vers WPshop.
 
 Attention, celà synchronise toutes les données Dolibarr: produit, commande, facture...
-
-Le bouton de "Synchronisation" de toutes les donnnées se trouvent dans le Tableau de bord dans le menu WPshop.
+Avant d'utiliser le bouton de "Synchronisation en masse", il est important de lire et comprendre ce chapitre "Préparer la synchronisation en masse"
+Le bouton de "Synchronisation en masse" de toutes les donnnées se trouvent dans le Tableau de bord dans le menu WPshop.
 
 ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/sync-button.png)
 
@@ -76,3 +76,47 @@ Dans le listing des produits sur WPshop, nous pouvons vérifier si le produit es
 * Vert: Synchroniser (Les deux produits contiennent les mêmes données)
 * Orange: Désynchroniser (Les deux produits contiennents des données différentes)
 * Rouge: Non associer et non synchroniser.
+
+## Synchronisation en masse
+
+La synchronisation en masse récupères **toutes les données de dolibarr** et écrase les données des entitées liée avec celle de WPshop. Si l'entité n'a pas de liaison avec WPshop, celle-ci est créé dans WPshop.
+
+### Préparer la synchronisation
+
+#### Données de base 
+
+WPSHOP            DOLIBARR
+Produit A    !=   Produit A
+Produit B    !=   -
+Produit C    !=   Produit C
+-            !=   Produit D
+
+#### Etape création
+
+Cette étape consiste à créer tous les produits WPshop inexistants sur Dolibarr.
+
+Produit A    !=   Produit A
+Produit B    !=   Produit B
+Produit C    !=   Produit C
+-            !=   Produit D
+
+#### Étape association
+
+Cette étape consiste à associer les produits non associé entre eux depuis l'interface du listing des produits sur WPshop.
+
+Produit A    =   Produit A
+Produit B    =   Produit B
+Produit C    =   Produit C
+-           !=   Produit D
+
+#### Étape synchronisation en masse
+
+Cette étape consiste à cliquer sur le bouton "Synchronisation en masse" dans le menu Tableau de bord sur WPshop.
+
+WPSHOP            DOLIBARR
+Produit A    =    Produit A
+Produit B    =    Produit B
+Produit C    =    Produit C
+Produit D    =    Produit D
+
+
