@@ -18,7 +18,7 @@ Toute la documentation liée à WPShop 2.
 
 ## Documentation technique
 
-* [Synchronier Dolibarr avec WPshop](https://github.com/Eoxia/wpshop-docs/blob/master/pages/technique/dolibarr/dolibarr-sync.md)
+* [Synchroniser Dolibarr avec WPshop](https://github.com/Eoxia/wpshop-docs/blob/master/pages/technique/dolibarr/dolibarr-sync.md)
 * [WPshop 1 vers WPshop 2](https://github.com/Eoxia/wpshop-docs/blob/master/pages/technique/wpshop1-to-wpshop2.md)
 
 ## Contribuer
