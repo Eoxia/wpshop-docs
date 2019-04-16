@@ -7,7 +7,7 @@ Les entitées de WPshop 1 et 2 ne sont pas exactement similaires, c'est pourquoi
 | Entitée  |               |               |
 | Tier     | Existante     | Existante     |
 | Contact  | Existante     | Existante     |
-| Adress   | Existante     | Non Existante |
+| Adresse  | Existante     | Non Existante |
 | Produit  | Existante     | Existante     |
 | Commande | Existante     | Existante     |
 | Facture  | Non Existante | Existante     |
