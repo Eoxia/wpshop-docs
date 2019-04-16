@@ -20,7 +20,7 @@ Il est important de savoir que les **tier** dans WPshop sont des custom post typ
 
 Pour le post_type, nous l'avons renommé de **wpshop_customers** en **wps_customer**.
 
-Faire seulement un changement de post_type permet de garder le même ID sur les tiers, et de ce fait, de garder **les mêmes éléments enfants associés** celui-ci.
+Faire seulement un changement de post_type permet de garder le même ID sur les tiers, et de ce fait, de garder **les mêmes éléments enfants associés** à celui-ci.
 
 Pour les métadonnées, veuillez voir les chapitres suivants.
 
