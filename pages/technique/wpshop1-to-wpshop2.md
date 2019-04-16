@@ -22,6 +22,16 @@ Pour le post_type, nous l'avons renommé de **wpshop_customers** en **wps_custom
 
 Faire seulement un changement de post_type permet de garder le même ID sur les tiers, et de ce fait, de garder **les mêmes éléments enfants associés** à celui-ci.
 
+### Un point sur les adresses
+
+Un autre point important à voir, c'est les adresses. 
+
+Dans WPshop 1, nous utilisions l'entité adresse pour gérer les adresses de livraison et facturation. Cette entité n'existe plus pour le moment dans WPshop 2.
+
+Dans WPshop 2, les adresses sont stockées sur le tier directement. Seulement un tier dans la nouvelle version peut avoir qu'une seule adresse associée à celui-ci.
+
+Nous récupérons l'adresse "favorites" du client depuis la version 1.
+
 Pour les métadonnées, veuillez voir les chapitres suivants.
 
 ### Les métadonnées
