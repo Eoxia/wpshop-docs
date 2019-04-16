@@ -36,13 +36,14 @@ Les méta données suivantes sont les nouvelles de WPshop 2
 
 ### Tableau de liaison des métadonnées
 
-|            |  WPshop 1                                                            | WPshop 2   |
-| ---------- | -------------------------------------------------------------------- | ---------- |
-| Entitée v1 |                                                                      |            |
-| Address    | Donnée **address** de la méta déserialisé \_wpshop_address_metadata  | \_address  |
-| Address    | Donnée **postcode** de la méta déserialisé \_wpshop_address_metadata | \_postcode |
-| Address    | Donnée **city** de la méta déserialisé \_wpshop_address_metadata     | \_city     |
-| Address    | Donnée **country** de la méta déserialisé \_wpshop_address_metadata  | \_country  |
+|            |  WPshop 1                                                            | WPshop 2       |
+| ---------- | -------------------------------------------------------------------- | -------------- |
+| Entitée v1 |                                                                      |                |
+| Address    | Donnée **address** de la méta déserialisé \_wpshop_address_metadata  | \_address      |
+| Address    | Donnée **postcode** de la méta déserialisé \_wpshop_address_metadata | \_postcode     |
+| Address    | Donnée **city** de la méta déserialisé \_wpshop_address_metadata     | \_city         |
+| Address    | Donnée **country** de la méta déserialisé \_wpshop_address_metadata  | \_country      |
+| Tier       | Donnée **\_wpscrm_associated_user**                                  | \_contacts_ids |
 
 
 
