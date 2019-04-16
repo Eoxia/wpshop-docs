@@ -32,8 +32,6 @@ Dans WPshop 2, les adresses sont stockées sur le tier directement. Seulement un
 
 Nous récupérons l'adresse "favorites" du client depuis la version 1.
 
-Pour les métadonnées, veuillez voir les chapitres suivants.
-
 ### Les métadonnées
 
 Techniquement, seulement quelques méta données sur le tier doit être ajoutées:
