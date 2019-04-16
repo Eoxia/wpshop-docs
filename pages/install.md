@@ -1,8 +1,8 @@
 # Installer WPshop 2
 
-## Télécharger et activer l'extension (Méthode indisponible pour le moment)
+## Télécharger et activer l'extension
 
-### Méthode 1: Par la page Extensions de votre back office WordPress
+### Méthode 1: Par la page Extensions de votre back office WordPress (Méthode indisponible pour le moment)
 
 * Aller dans la page "Extensions" de votre back office WordPress: https://<votrewordpress.ext>/wp-admin
 * Puis cliquer sur "Ajouter" en haut de la page
