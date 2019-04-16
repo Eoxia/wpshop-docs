@@ -4,6 +4,7 @@ Toute la documentation liée à WPShop 2.
 
 ## Documentation utilisateur
 
+* [Installer WPshop 2](https://github.com/Eoxia/wpshop-docs/blob/master/pages/install.md)
 * [Commande](https://github.com/Eoxia/wpshop-docs/blob/master/pages/order.md)
 * [Configurer Dolibarr avec WPshop](https://github.com/Eoxia/wpshop-docs/blob/master/pages/dolibarr-configure.md)
 * [Configurer WPshop](https://github.com/Eoxia/wpshop-docs/blob/master/pages/configure.md)
