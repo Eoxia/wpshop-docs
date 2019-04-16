@@ -2,15 +2,15 @@
 
 Les entitées de WPshop 1 et 2 ne sont pas exactement similaires, c'est pourquoi nous faisons une migration, en résumé nous retrouvons:
 
-|          | WPshop 1 | WPshop 2 |
-| -------- | -------- | -------- |
-| Entitée  |          |          |
-| Tier     | Oui      | Oui      |
-| Contact  | Oui      | Oui      |
-| Adresse  | Oui      | Non      |
-| Produit  | Oui      | Oui      |
-| Commande | Oui      | Oui      |
-| Facture  | Non      | Oui      |
+|          | WPshop 1      | WPshop 2      |
+| -------- | ------------- | ------------- |
+| Entitée  |               |               |
+| Tier     | Existante     | Existante     |
+| Contact  | Existante     | Existante     |
+| Adress   | Existante     | Non Existante |
+| Produit  | Existante     | Existante     |
+| Commande | Existante     | Existante     |
+| Facture  | Non Existante | Existante     |
 
 WPshop 2 proposes uniquement la migration de **tier** ainsi que leurs **contacts**.
 
