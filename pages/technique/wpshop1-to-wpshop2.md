@@ -16,7 +16,7 @@ WPshop 2 proposes uniquement la migration de **tier** ainsi que leurs **contacts
 
 ## Migration des tiers
 
-Il est important de savoir que les **tier** dans WPshop sont des (https://codex.wordpress.org/Post_Types)[custom post type]. La différence entre WPshop 1 et 2 est le nom du **post_type** ainsi que les noms des métadonnées.
+Il est important de savoir que les **tier** dans WPshop sont des (Custom Post Types)[https://codex.wordpress.org/Post_Types]. La différence entre WPshop 1 et 2 est le nom du **post_type** ainsi que les noms des métadonnées.
 
 Pour le post_type, nous l'avons renommé de **wpshop_customers** en **wps_customer**.
 
