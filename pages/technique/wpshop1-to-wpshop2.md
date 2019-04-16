@@ -3,6 +3,7 @@
 Les entitées WPshop 1 et 2 sont similaires cependant l'entité **adresse** n'est plus existantes, en résumé nous retrouvons:
 
 |          | WPshop 1 | WPshop 2 |
+| -------- | -------- | -------- |
 | Entitée  |          |          |
 | Tier     | Oui      | Oui      |
 | Contact  | Oui      | Oui      |
