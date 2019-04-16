@@ -1,6 +1,6 @@
 # WPshop 1 vers WPshop 2
 
-Les entitées WPshop 1 et 2 sont similaires cependant l'entité **adresse** n'est plus existantes, en résumé nous retrouvons:
+Les entitées de WPshop 1 et 2 ne sont pas exactement similaires, c'est pourquoi nous faisons une migration, en résumé nous retrouvons:
 
 |          | WPshop 1 | WPshop 2 |
 | -------- | -------- | -------- |
@@ -16,6 +16,14 @@ WPshop 2 proposes uniquement la migration de **tier** ainsi que leurs **contacts
 
 ## Migration des tiers
 
+Il est important de savoir que le **tier** dans WPshop est un custom post type. La différence entre WPshop 1 et 2 est le nom du **post_type** ainsi que les noms des métadonnées.
+
+Pour le post_type, nous avons changé le post_type de **wpshop_customers** en **wps_customer**.
+
+Pour les métadonnées, veuillez voir les chapitres suivants.
+
+### Les métadonnées
+
 Techniquement, seulement quelques méta données sur le tier doit être ajoutées:
 
 Les méta données suivantes sont les nouvelles de WPshop 2
@@ -26,15 +34,17 @@ Les méta données suivantes sont les nouvelles de WPshop 2
 * _town: La ville du tier
 * _country: Le pays du tier
 
-Tableau de liaison
+### Tableau de liaison des métadonnées
 
-|            |  WPshop 1                                                            | WPshop 2  |
-| ---------- | -------------------------------------------------------------------- | --------- |
-| Entitée v1 |                                                                      |           |
-| Address    | Donnée **address** de la méta déserialisé \_wpshop_address_metadata  | \_address |
-| Address    | Donnée **postcode** de la méta déserialisé \_wpshop_address_metadata | \_address |
-| Address    | Donnée **city** de la méta déserialisé \_wpshop_address_metadata     | \_address |
-| Address    | Donnée **country** de la méta déserialisé \_wpshop_address_metadata  | \_address |
+|            |  WPshop 1                                                            | WPshop 2   |
+| ---------- | -------------------------------------------------------------------- | ---------- |
+| Entitée v1 |                                                                      |            |
+| Address    | Donnée **address** de la méta déserialisé \_wpshop_address_metadata  | \_address  |
+| Address    | Donnée **postcode** de la méta déserialisé \_wpshop_address_metadata | \_postcode |
+| Address    | Donnée **city** de la méta déserialisé \_wpshop_address_metadata     | \_city     |
+| Address    | Donnée **country** de la méta déserialisé \_wpshop_address_metadata  | \_country  |
+
+
 
 ## Migration des contacts
 
