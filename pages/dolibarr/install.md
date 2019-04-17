@@ -13,7 +13,7 @@
 ### Méthode 2: En téléchargeant le ZIP
 
 * Télécharger le ZIP en cliquant (ici)[https://github.com/Eoxia/wpshop/archive/2.0.0.zip].
-* Dézipper et envoyer le fichier wpshop dans le répertoire /wp-content/plugins/
+* Dézipper et envoyer le dossier wpshop dans le répertoire /wp-content/plugins/
 * Activer le plugin dans le menu Extensions de votre back office WordPress.
 
 ## Utilisation avec Dolibarr
@@ -44,3 +44,12 @@ Activer les modules de Dolibarr :
 Dans l'onglet Configuration -> Divers, ajouter une ligne avec, comme données :
 Nom : PRODUCT_PRICE_UNIQ
 Valeur : 1
+
+### Installer le module WPshop dans dolibarr
+
+(Description du module WPshop pour dolibarr)[https://github.com/Eoxia/wpshop-docs/blob/master/pages/dolibarr/module-wpshop.md]
+
+* Télécharger le ZIP en cliquant (ici)[https://github.com/Eoxia/wpshop/archive/2.0.0.zip].
+* Dézipper et envoyer le dossier wpshop dans le répertoire /custom/.
+* Activer le module dans le menu Modules/Applications en pied de page sur votre Dolibarr.
+* Toujours sur la même page, cliquer sur "Configuration" sur le module WPshop.
