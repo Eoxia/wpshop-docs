@@ -12,7 +12,7 @@
 
 ### Méthode 2: En téléchargeant le ZIP
 
-* Télécharger le ZIP en cliquant (ici)[https://github.com/Eoxia/wpshop/archive/2.0.0.zip].
+* Télécharger le ZIP en cliquant [ici](https://github.com/Eoxia/wpshop/archive/2.0.0.zip).
 * Dézipper et envoyer le dossier wpshop dans le répertoire /wp-content/plugins/
 * Activer le plugin dans le menu Extensions de votre back office WordPress.
 
