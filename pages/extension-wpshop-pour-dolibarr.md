@@ -28,4 +28,8 @@ L'extension WPshop pour dolibarr permet d'ajouter ses hooks afin de mêttre à j
 
 ## Fonctionnalité
 
-Permet de synchroniser automatiquement les données d'une entitée dolibarr vers WPshop, lors de l'ajout, modification ou suppression de celle-ci.
+Permet de synchroniser automatiquement les données d'une entitée dolibarr vers WPshop.
+
+Lors de l'ajout, modification ou suppression de celle-ci, l'extension vas communiquer avec l'API rest de WP pour apporter l'action correspondant à l'évènement.
+
+L'extension vas également modifier la dernière date de modification sur les deux plateformes. Ce qui permet de savoir si on est à jour.
