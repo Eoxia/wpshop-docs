@@ -1,6 +1,8 @@
 # Extension WPshop pour Dolibarr
 
-## Pour quoi ?
+## Pourquoi ?
+
+## fonctionnalité
 
 L'extension WPshop pour dolibarr ajoutes la gestion des dates lors de la synchronisation entre WPShop et Dolibarr.
 
