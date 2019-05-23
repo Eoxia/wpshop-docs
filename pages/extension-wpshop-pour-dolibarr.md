@@ -2,7 +2,7 @@
 
 ## Pourquoi ?
 
-Nous avons besoin d'une cohérence des données entre les deux plateformes sans faute. 
+Nous avons besoin d'une cohérence des données entre les deux plateformes.
 Si la date de modification des deux plateformes sont équivalentes, celà veut dire que les données sont en cohérentes.
 
 Le module Évènements/Agenda de Dolibarr permet d'ajouter une date lors de certains évènements:
