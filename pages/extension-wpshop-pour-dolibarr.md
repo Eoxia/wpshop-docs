@@ -24,6 +24,8 @@ Le problème vient de certains évènements manquants qui sont obligatoires pour
 - CONTACT_MODIFY
 - CONTACT_DELETE
 
+L'extension WPshop pour dolibarr permet d'ajouter ses hooks afin de mêttre à jour les données lors de ces évènements sur WordPress.
+
 ## Fonctionnalité
 
 Permet de synchroniser automatiquement les données d'une entitée dolibarr vers WPshop, lors de l'ajout, modification ou suppression de celle-ci.
