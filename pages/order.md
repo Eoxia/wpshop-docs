@@ -11,7 +11,7 @@
 
 ### Métadonnée "Payée"
 
-0 En attente, 1 payée.
+0 Pas payée, 1 payée.
 
 #### Chèque 
 
