@@ -6,7 +6,9 @@ Les produit de votre boutique est accessible en cliquant sru la page **Produits*
 
 ## La page des Produits
 
-Voici les différentes fonctionnalités de cette page
+Voici une capture d'écran ainsi que la description des différentes fonctionnalités de cette page:
+
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/la-page-des-produits.png)
 
 1. Permet d'ajouter un nouveau produit
 2. Permet de passer en mode édition rapide les produits sélectionnés
