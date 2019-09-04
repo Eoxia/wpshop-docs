@@ -10,22 +10,15 @@ Voici une capture d'écran ainsi que la description des différentes fonctionnal
 
 ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/page-des-produits.png)
 
-1. Permet d'ajouter un nouveau produit
-2. Permet de passer en mode édition rapide les produits sélectionnés
+1. Permet de passer en mode édition rapide les produits sélectionnés
+2. Permet d'ajouter un nouveau produit
 3. Permet d'effectuer une recherche
-4. Permet de changer de page si vous avez plus de 10 produit (par défaut)
-5. Permet de configurer le nombre de produit par page (10 par défaut)
-6. Le nombre de produit dans votre boutique ou selon les critères de recherches effectué sur cette page.
-7. Le tableau affichant tous les produits sur votre boutique
-
-
-
+4. Le tableau affichant tous les produits sur votre boutique
+5. Le nombre de produit dans votre boutique ou selon les critères de recherches effectué sur cette page.
+6. Permet de configurer le nombre de produit par page (10 par défaut)
+7. Permet de changer de page si vous avez plus de 10 produit (par défaut)
 
 Ce tableau nous permet de visualiser en un instant les différentes données importantes de vos produits telles que leurs prix HT/TTC, et le stock restant.
-
-
-
-
 
 ## Créer un produit
 
