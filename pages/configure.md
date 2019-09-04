@@ -10,6 +10,15 @@ Sur cette page, nous allons parler de toutes les configurations disponibles sur 
 
 ## Pages
 
+WPShop doit connaître les pages pour envoyer les utilisateurs selon les actions effecutées par celui-ci:
+
+* **Boutique**: cette page affiches les produits de la boutique.
+* **Panier**: cette page affiches les produits dans le panier du client.
+* **Tunnel de vente**: cette page permet l'utilisateur de passer sa commande.
+* **Mon compte**: cette page permet à l'utilisateur connecté de voir ses commandes, devis, factures et produits téléchargables.
+* **Validation**: cette page permet l'affichage de la validation d'une commande ou d'un devis.
+* **Condition générales de vente**: cette page permet de visualiser les conditions générales de vente.
+
 ## Emails
 
 ## Moyen de paiement
