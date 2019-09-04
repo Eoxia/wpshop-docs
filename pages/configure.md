@@ -91,3 +91,15 @@ Ce formulaire est similaire que l'interface "Modifier une méthode de paiement" 
 Cliquer sur "Enregistrer les modifications" pour valider vos modifications.
 
 ## Frais de livraison
+
+Les frais de livraison par pays/états/zones ne sont pas disponibles.
+
+WPshop propose une gestion **simple** des frais de livraison.
+
+Pour rendre active les frais de livraison, nous créons un produit "Frais de livraison" avec un prix voulu.
+Puis dans cette interface, nous sélectionnons notre produit "Frais de livraison".
+Puis nous définissons un prix pour la livraison gratuite à partir de celui-ci.
+
+Cliquer sur "Enregister les modifications" pour valider vos modifications.
+
+Cette interface contient un formulaire de deux champs
