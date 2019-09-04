@@ -45,7 +45,7 @@ Ensuite il faut placer la liste déroulante sur la valeur "Modification rapide" 
 
 ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-mass-quick-edit.gif)
 
-Les lignes passent en interface "Edition rapide", faites les modifications voulu puis cliquer sur "Sauvegarder" qui apparaît au survol de la souris sur chaque ligne en cours d'édition.
+Les lignes passent en interface "Edition rapide", faites les modifications voulues puis cliquer sur "Sauvegarder" qui apparaît au survol de la souris sur chaque lignes en cours d'édition.
 
 ## Rechercher un élément
 
