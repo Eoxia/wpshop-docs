@@ -22,13 +22,26 @@ Ce tableau nous permet de visualiser en un instant les différentes données imp
 
 ## Créer un produit
 
-Rendez vous **Produits -> Ajouter**.
+Rendez vous dans **Produits -> Ajouter**.
 
 Voici une capture d'écran ainsi que la description des différentes fonctionnalitées de la page d'édition d'un produit:
 
 ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-edit-3.png)
 
+1. Le titre de votre produit
+2. La description de votre produit
+3. Le bouton pour confirmer la création de votre produit
+4. Les catégories de votre produit
+5. L'image en vignette de votre produit
+6. Les métadonnées de votre produit telles que le Prix HT, Taux de TVA, Gestion du stock, Produit téléchargeable et les produits similaires.
+
+Remplisser le formulaire puis cliquer sur "Publier".
+
 ## Editer un produit
+
+Rendez vous dans la page **Produits** puis cliquer sur le bouton "Modifier" qui apparaît au survol de votre souris de produit à modifier.
+
+L'interface est similaire à celle de [Créer un produit](https://github.com/Eoxia/wpshop-docs/blob/master/pages/product.md#editer-un-produit)
 
 ## Modification rapide
 
