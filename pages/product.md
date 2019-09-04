@@ -75,7 +75,7 @@ Les critères de recherche sont les suivants:
 
 Rendez vous **Produits** puis entrer le contenu voulu dans le champs de recherche et cliquer sur "Rechercher".
 
-![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-search.gif)
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-search-2.gif)
 
 ## Ajouter un fichier téléchargeable au produit
 
