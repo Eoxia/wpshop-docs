@@ -6,7 +6,7 @@ Les produits de votre boutique sont accessibles en cliquant sur la page **Produi
 
 ## La page des Produits
 
-Voici une capture d'écran ainsi que la description des différentes fonctionnalités de cette page:
+Voici une capture d'écran ainsi que la description des différentes fonctionnalitées de cette page:
 
 ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/page-des-produits.png)
 
@@ -21,6 +21,13 @@ Voici une capture d'écran ainsi que la description des différentes fonctionnal
 Ce tableau nous permet de visualiser en un instant les différentes données importantes de vos produits telles que leurs prix HT/TTC, et le stock restant.
 
 ## Créer un produit
+
+Rendez vous **Produits -> Ajouter**.
+
+Voici une capture d'écran ainsi que la description des différentes fonctionnalitées de la page d'édition d'un produit:
+
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-edit.png)
+
 
 ## Editer un produit
 
@@ -49,9 +56,9 @@ Les lignes passent en interface "Edition rapide", faites les modifications voulu
 
 ## Rechercher un élément
 
-## Ajouter un fichier téléchargable au produit
+## Ajouter un fichier téléchargeable au produit
 
-Aller dans la page "Ajouter" dans la page "Produits" de votre back office WordPress.
+Rendez vous **Produits -> Ajouter**
 
 Comme pour un produit simple, nous retrouvons les champs
 
@@ -60,4 +67,4 @@ Comme pour un produit simple, nous retrouvons les champs
 * Prix HT
 * Taux de TVA
 
-Pour rendre votre produit téléchargable, il suffit de cliquer sur l'icone
+Pour rendre votre produit téléchargeable, il suffit de cliquer sur l'icone
