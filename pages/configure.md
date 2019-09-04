@@ -19,6 +19,10 @@ WPShop doit connaître les pages pour envoyer les utilisateurs selon les actions
 * **Validation**: cette page permet l'affichage de la validation d'une commande ou d'un devis.
 * **Condition générales de vente**: cette page permet de visualiser les conditions générales de vente.
 
+Chaque élément ci-dessus sont accompagnés d'une liste déroulante qui liste toutes vos pages WordPress. Vous pouvez très bien choisir une page différente de celle par défaut.
+
+A savoir: WPshop créer des pages par défaut pour chaque élément cité ci-dessus lors de la première activation du plugin.
+
 ## Emails
 
 ## Moyen de paiement
