@@ -41,7 +41,7 @@ Remplisser le formulaire puis cliquer sur "Publier".
 
 Rendez vous dans la page **Produits** puis cliquer sur le bouton "Modifier" qui apparaît au survol de votre souris de produit à modifier.
 
-L'interface est similaire à celle de [Créer un produit](https://github.com/Eoxia/wpshop-docs/blob/master/pages/product.md#editer-un-produit)
+L'interface est similaire à celle de [Créer un produit](https://github.com/Eoxia/wpshop-docs/blob/master/pages/product.md#cr%C3%A9er-un-produit)
 
 ## Modification rapide
 
@@ -66,7 +66,16 @@ Ensuite il faut placer la liste déroulante sur la valeur "Modification rapide" 
 
 Les lignes passent en interface "Edition rapide", faites les modifications voulues puis cliquer sur "Sauvegarder" qui apparaît au survol de la souris sur chaque lignes en cours d'édition.
 
-## Rechercher un élément
+## Rechercher un produit
+
+Les critères de recherche sont les suivants:
+
+* Dans le titre
+* Dans la description
+
+Rendez vous **Produits** puis entrer le contenu voulu dans le champs de recherche et cliquer sur "Rechercher".
+
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-search.gif)
 
 ## Ajouter un fichier téléchargeable au produit
 
