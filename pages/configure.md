@@ -4,9 +4,9 @@ Sur cette page, nous allons parler de toutes les configurations disponibles sur 
 
 ## Général
 
-**Dolibarr URL & Dolibarr Secret** permet la connexion vers votre ERP Dolibarr pour gérer la synchronisation automatique des données.
-**Email de la boutique** contient votre adresse email de votre boutique WPshop. Tous les mails entrant/sortant reliée à WPshop telles que "Une nouvelle commande dans votre boutique", "Nouveau client inscrit dans votre boutique", "Commande complétée" sont traités par cette adresse email. 
-**Taille miniature largeur & Taille miniature hauteur** permet de gérer la taille des images gérées par WPshop.
+* **Dolibarr URL & Dolibarr Secret** permet la connexion vers votre ERP Dolibarr pour gérer la synchronisation automatique des données.
+* **Email de la boutique** contient votre adresse email de votre boutique WPshop. Tous les mails entrant/sortant reliée à WPshop telles que "Une nouvelle commande dans votre boutique", "Nouveau client inscrit dans votre boutique", "Commande complétée" sont traités par cette adresse email. 
+* **Taille miniature largeur & Taille miniature hauteur** permet de gérer la taille des images gérées par WPshop.
 
 ## Pages
 
