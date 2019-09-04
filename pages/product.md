@@ -2,9 +2,28 @@
 
 Sur cette page, nous allons pouvoir créer/éditer et configurer nos produits, que ce soit des produits simples, ou des produits téléchargables.
 
-Rendons nous sur **Produits**
+Les produit de votre boutique est accessible en cliquant sru la page **Produits**.
 
-## Le tableau des produits
+## La page des Produits
+
+Voici les différentes fonctionnalités de cette page
+
+1. Permet d'ajouter un nouveau produit
+2. Permet de passer en mode édition rapide les produits sélectionnés
+3. Permet d'effectuer une recherche
+4. Permet de changer de page si vous avez plus de 10 produit (par défaut)
+5. Permet de configurer le nombre de produit par page (10 par défaut)
+6. Le nombre de produit dans votre boutique ou selon les critères de recherches effectué sur cette page.
+7. Le tableau affichant tous les produits sur votre boutique
+
+
+
+
+Ce tableau nous permet de visualiser en un instant les différentes données importantes de vos produits telles que leurs prix HT/TTC, et le stock restant.
+
+
+
+
 
 ## Créer un produit
 
