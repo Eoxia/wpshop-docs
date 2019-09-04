@@ -2,7 +2,7 @@
 
 Sur cette page, nous allons pouvoir créer/éditer et configurer nos produits, que ce soit des produits simples, ou des produits téléchargables.
 
-Les produit de votre boutique est accessible en cliquant sru la page **Produits**.
+Les produit de votre boutique est accessible en cliquant sur la page **Produits**.
 
 ## La page des Produits
 
@@ -25,6 +25,16 @@ Ce tableau nous permet de visualiser en un instant les différentes données imp
 ## Editer un produit
 
 ## Modification rapide et modification en masse
+
+Pour effectuer une modification rapide, survoler la ligne du produit voulu, puis cliquer sur "Modification rapide".
+
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-quick-edit.png)
+
+Après un court chargement, nous arrivons sur une interface d'édition:
+
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-quick-edit-ui.png)
+
+Faites vos modifications, puis cliquer sur "Sauvegarder" qui apparaît au survol de la souris sur la ligne en cours d'édition.
 
 ## Rechercher un élément
 
