@@ -2,7 +2,7 @@
 
 Sur cette page, nous allons pouvoir créer/éditer et configurer nos produits, que ce soit des produits simples, ou des produits téléchargables.
 
-Les produit de votre boutique est accessible en cliquant sur la page **Produits**.
+Les produits de votre boutique sont accessibles en cliquant sur la page **Produits**.
 
 ## La page des Produits
 
