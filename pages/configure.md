@@ -2,6 +2,8 @@
 
 Sur cette page, nous allons parler de toutes les configurations disponibles sur votre WPshop. Nous retrouverons des configurations telles que la connexion avec Dolibarr, les pages de votre boutique, les emails, les méthodes de paiement et les frais de livraison.
 
+Rendons nous sur **WPshop -> Réglages**
+
 ## Général
 
 * **Dolibarr URL & Dolibarr Secret** permet la connexion vers votre ERP Dolibarr pour gérer la synchronisation automatique des données.
