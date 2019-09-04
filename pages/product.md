@@ -88,4 +88,14 @@ Comme pour un produit simple, nous retrouvons les champs
 * Prix HT
 * Taux de TVA
 
-Pour rendre votre produit téléchargeable, il suffit de cliquer sur l'icone
+Pour rendre votre produit téléchargeable, il suffit d'activer l'option "Produit téléchargeable":
+
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-on-downloadable-product.png)
+
+Une fois l'option activé, veuillez cliquer sur "Add an attached file" puis choissisez le fichier. Vous pouvez attacher plusieurs fichiers au produit.
+
+Pour confirmer l'ajout des fichiers au produit, veuillez cliquer sur le bouton "Publier" ou "Mettre à jour".
+
+
+
+
