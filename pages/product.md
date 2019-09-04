@@ -24,17 +24,28 @@ Ce tableau nous permet de visualiser en un instant les différentes données imp
 
 ## Editer un produit
 
-## Modification rapide et modification en masse
+## Modification rapide
+
+### Un seul élément
 
 Pour effectuer une modification rapide, survoler la ligne du produit voulu, puis cliquer sur "Modification rapide".
 
 ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-quick-edit.png)
 
-Après un court chargement, nous arrivons sur une interface d'édition:
+Après un court chargement, nous arrivons sur l'interface d'édition rapide d'un produit:
 
 ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-quick-edit-ui.png)
 
 Faites vos modifications, puis cliquer sur "Sauvegarder" qui apparaît au survol de la souris sur la ligne en cours d'édition.
+
+### Modification en masse
+
+Pour effectuer une modification en masse, il suffit de cliquer sur les cases à cocher des lignes des produits à modifier.
+Ensuite il faut placer la liste déroulante sur la valeur "Modification rapide" et enfin, appuyer sur "Appliquer":
+
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-mass-quick-edit.gif)
+
+Les lignes passent en interface "Edition rapide", faites les modifications voulu puis cliquer sur "Sauvegarder" qui apparaît au survol de la souris sur chaque ligne en cours d'édition.
 
 ## Rechercher un élément
 
