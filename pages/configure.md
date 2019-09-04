@@ -57,4 +57,37 @@ Une fois le contenu "déverouiller", nous pouvons modifier son contenant puis cl
 
 Dans cette interface, nous retrouvons un tableau regroupant toutes les méthodes de paiement disponibles dans WPshop par défaut.
 
+#### Modifier une méthode de paiement
+
+En cliquant sur "Configurer" nous arrivons sur une nouvelle interface qui contient un formulaire. Pour chaque méthode de paiement l'interface est similaire, nous retrouvons:
+
+* Le titre
+* L'état
+* La description
+
+Cliquer sur "Enregistrer les modifications" pour valider vos modifications.
+
+#### Configurer PayPal
+
+[Cliquer ici pour avoir plus de détails sur la mise en place de PayPal](https://github.com)
+
+Ce formulaire est similaire que l'interface "Modifier une méthode de paiement" avec 2 champs supplémentaires:
+
+* Email PayPal
+* PayPal Sandbox
+
+Cliquer sur "Enregistrer les modifications" pour valider vos modifications.
+
+#### Configurer Stripe
+
+[Cliquer ici pour avoir plus de détails sur la mise en place de Stripe](https://github.com)
+
+Ce formulaire est similaire que l'interface "Modifier une méthode de paiement" avec 3 champs supplémentaires:
+
+* Clé publique
+* Clé secrète
+* Stripe Sandbox
+
+Cliquer sur "Enregistrer les modifications" pour valider vos modifications.
+
 ## Frais de livraison
