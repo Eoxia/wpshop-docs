@@ -25,6 +25,36 @@ A savoir: WPshop créer des pages par défaut pour chaque élément cité ci-des
 
 ## Emails
 
+### Tableau des mails disponibles
+
+Dans cette interface, nous retrouvons un tableau regroupant tous les emails disponibles dans WPshop par défaut.
+
+### Modifier un modèle d'email
+
+En cliquant sur "Gérer" nous pouvons modifier le contenu d'un mail par défaut.
+
+Le contenu du mail est géré dans un fichier, tous ces fichiers "modèle" sont disponibles dans /wpshop/modules/emails/view/.
+
+Par défault le contenu du mail est vérrouillé. Nous devons créer notre propre modèle pour pouvoir en modifier son contenu.
+
+Nous avons deux méthodes pour créer notre propre modèle afin de modifier le modèle par défaut:
+
+#### Méthode 1 
+
+Prenons le cas de "Nouvelle commande payée", le fichier qui nous intéresse est "/wpshop/modules/emails/view/admin-new-order.php", nous allons le copier et le coller dans notre thème "/mon-theme/wpshop/emails/admin-new-order.php.
+
+#### Méthode 2
+
+Cliquer sur le bouton "Copié le modèle".
+
+### Modifier le contenu du mail
+
+Une fois le contenu "déverouiller", nous pouvons modifier son contenant puis cliquer sur "Enregister les modifications".
+
 ## Moyen de paiement
+
+### Tableau des méthodes de paiement disponibles
+
+Dans cette interface, nous retrouvons un tableau regroupant toutes les méthodes de paiement disponibles dans WPshop par défaut.
 
 ## Frais de livraison
