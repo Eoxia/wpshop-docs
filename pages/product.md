@@ -26,8 +26,7 @@ Rendez vous **Produits -> Ajouter**.
 
 Voici une capture d'écran ainsi que la description des différentes fonctionnalitées de la page d'édition d'un produit:
 
-![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-edit-2.png)
-
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-edit-3.png)
 
 ## Editer un produit
 
