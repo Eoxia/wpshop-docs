@@ -1,4 +1,4 @@
-# Configurer WPshop
+# Configurer votre boutique
 
 Sur cette page, nous allons parler de toutes les configurations disponibles sur votre WPshop. Nous retrouverons des configurations telles que la connexion avec Dolibarr, les pages de votre boutique, les emails, les méthodes de paiement et les frais de livraison.
 
