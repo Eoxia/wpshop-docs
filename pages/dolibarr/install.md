@@ -25,9 +25,9 @@ Pour ce faire rendons nous dans l'administration.
 Les éléments obligatoires pour le bon fonctionnement sont les suivants:
 
 * Ajouter les pages de WPshop dans un menu WordPress:
-** Boutique
-** Panier
-** Mon compte
+  * Boutique
+  * Panier
+  * Mon compte
 
 * Créer des produits ([Comment créer des produits ?](https://github.com/Eoxia/wpshop-docs/blob/master/pages/product.md))
 
