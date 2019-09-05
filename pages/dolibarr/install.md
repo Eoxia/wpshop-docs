@@ -45,7 +45,7 @@ Les éléments obligatoires pour le bon fonctionnement sont les suivants:
 Avec les éléments ci-dessus, vos clients ont la possibilités de faire des demandes de devis selon leur panier.
 
 Seulement des devis ? Comment faire pour que le client puisse payer directement sur ma boutique en ligne ? 
-Très bonne question, nous allons voir comment accepter des paiements directement depuis votre boutique en ligne dans le chapitre suivant.
+Très bonne question, nous allons voir comment accepter des paiements directement depuis votre boutique en ligne dans le chapitre suivant grâce à Dolibarr.
 
 ## La fusion avec Dolibarr
 
