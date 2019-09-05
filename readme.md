@@ -6,7 +6,7 @@ Toute la documentation liée à WPShop 2.
 
 ### L'espace administrateur
 
-* [Installer WPshop 2](https://github.com/Eoxia/wpshop-docs/blob/master/pages/dolibarr/install.md)
+* [Installer WPshop 2 & Commencer à vendre](https://github.com/Eoxia/wpshop-docs/blob/master/pages/dolibarr/install.md)
 * [Configurer votre boutique](https://github.com/Eoxia/wpshop-docs/blob/master/pages/configure.md)
 * [Gérer les produits](https://github.com/Eoxia/wpshop-docs/blob/master/pages/product.md)
 * [Gérer les commandes](https://github.com/Eoxia/wpshop-docs/blob/master/pages/order.md)
