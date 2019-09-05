@@ -56,6 +56,24 @@ Rendez vous sur [cette page](https://www.dolibarr.fr/) pour installer dolibarr.
 
 Une fois l'installation effectué, nous allons devoir ajouter un module à Dolibarr afin de gérer la synchronisation automatique des données entre les deux plateformes respectives: WordPress et Dolibarr.
 
+Pour effectuer cette synchronisation nous avons besoin de "token", ce sont des sortes de code secret permettant aux plateformes d'autoriser la communication entre elles.
+
+### Générer le token sur WordPress
+
+* Rendez vous dans l'administration de WordPress
+* Aller sur votre profil utilisateur (https://<votrewordpress.ext/profile.php)
+* Dans la section WPshopAPI nous retrouvons le champ API Key.
+* Cliquer sur l'icone: ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/generate-api-key.png)
+* Le token apparaît dans le champ vide auparavant.
+
+### Générer le token sur Dolibarr
+
+* Rendez vous dans l'administration de Dolibarr
+* Cliquez sur le bouton "Super Admin" tout en au à droite de l'application
+* Puis le bouton "Modifier"
+* Cherchez le champ "Clé pour l'API" puis cliquer sur l'icone: ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/generate-api-key-doli.png)
+* Le token apparaît dans le champ vide auparavant.
+
 [Description du module WPshop pour dolibarr](https://github.com/Eoxia/wpshop-docs/blob/master/pages/dolibarr/module-wpshop.md)
 
 Télécharger le ZIP en cliquant [ici](https://github.com/Eoxia/doli-wpshop/archive/master.zip).
@@ -63,10 +81,20 @@ Télécharger le ZIP en cliquant [ici](https://github.com/Eoxia/doli-wpshop/arch
 * Activer le module dans le menu Modules/Applications en pied de page sur votre Dolibarr.	
 * Toujours sur la même page, cliquer sur "Configuration" sur le module WPshop.
 
-Cliquer sur "Modifier" sur la page de configuration du module, nous avons maintenant 3 champs:
+Maintenant nous allons pouvoir configurer les deux plateformes afin qu'il communique entre eux
 
-* WordPress URL: https://<votrewordpress.ext>
-* OAuth2 Client ID: **L'ID client** récupéré depuis WordPress
-* OAuth2 Client Secret: **Le Secret Client** récupéré depuis WordPress.
+Toujours sur Dolibarr, cliquer sur "Modifier" sur la page de configuration du module, nous avons maintenant 3 champs:
+
+* WordPress URL: <https://<votrewordpress.ext>
+* WordPress sercret: **Le token** récupéré depuis WordPress
+
+Du coté de WPshop, rendez vous dans "WPshop -> Réglages" puis completer les 2 champs suivants:
+
+* Dolibarr URL: https://<votrewordpress.ext>
+* Dolibarr sercret: **Le token** récupéré depuis Dolibarr
+
+
+
+
 
 
