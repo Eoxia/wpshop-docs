@@ -74,12 +74,16 @@ Pour effectuer cette synchronisation nous avons besoin de "token", ce sont des s
 * Cherchez le champ "Clé pour l'API" puis cliquer sur l'icone: ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/generate-api-key-doli.PNG)
 * Le token apparaît dans le champ vide auparavant.
 
+### Installation du module WPshop pour Dolibarr
+
 [Description du module WPshop pour dolibarr](https://github.com/Eoxia/wpshop-docs/blob/master/pages/dolibarr/module-wpshop.md)
 
 Télécharger le ZIP en cliquant [ici](https://github.com/Eoxia/doli-wpshop/archive/master.zip).
 * Dézipper et envoyer le dossier wpshop dans le répertoire /custom/.	
 * Activer le module dans le menu Modules/Applications en pied de page sur votre Dolibarr.	
 * Toujours sur la même page, cliquer sur "Configuration" sur le module WPshop.
+
+### Configuration des tokens
 
 Maintenant nous allons pouvoir configurer les deux plateformes afin qu'il communique entre eux
 
@@ -93,8 +97,21 @@ Du coté de WPshop, rendez vous dans "WPshop -> Réglages" puis completer les 2 
 * Dolibarr URL: https://<votrewordpress.ext>
 * Dolibarr sercret: **Le token** récupéré depuis Dolibarr
 
+## Votre boutique est fonctionnelle!
 
+A partir de ce point, votre boutique est 100% fonctionelles:
 
+Vos clients peuvent:
 
+* Faire des demandes de devis
+* Passer des commandes
+* Visualiser leur facture
 
+Pour completer votre boutique vous pouvez:
 
+* [Voir les réglages avancées comme: "Ajouter des méthodes de paiement comme PayPal, Stripe"](https://github.com/Eoxia/wpshop-docs/blob/master/pages/configure.md)
+* [Gérer vos produits](https://github.com/Eoxia/wpshop-docs/blob/master/pages/product.md)
+* [Gérer vos commandes](https://github.com/Eoxia/wpshop-docs/blob/master/pages/order.md)
+* [Gérer vos clients](https://github.com/Eoxia/wpshop-docs/blob/master/pages/third-party.md)
+* [Visualiser votre tableau de bord](https://github.com/Eoxia/wpshop-docs/blob/master/pages/dashboard.md)
+* [Apprendre à maitriser la puissance de Dolibarr](https://wiki.dolibarr.org/index.php/Documentation_utilisateur)
