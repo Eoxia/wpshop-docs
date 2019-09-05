@@ -90,7 +90,7 @@ Comme pour un produit simple, nous retrouvons les champs
 
 Pour rendre votre produit téléchargeable, il suffit d'activer l'option "Produit téléchargeable":
 
-![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-add-downloadable-file.gif)
+![](https://github.com/Eoxia/wpshop-docs/blob/master/images/product-add-downloadable-file-v2.gif)
 
 Une fois l'option activé, veuillez cliquer sur "Add an attached file" puis choissisez le fichier. Vous pouvez attacher plusieurs fichiers au produit.
 
