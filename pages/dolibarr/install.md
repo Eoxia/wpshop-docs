@@ -1,6 +1,6 @@
-# Installer WPshop 2
+# Installer WPshop 2 & Commencer à vendre
 
-## Télécharger et activer l'extension
+## Installer WPshop 2
 
 ### Méthode 1: Par la page Extensions de votre back office WordPress (Méthode indisponible pour le moment)
 
@@ -15,3 +15,58 @@
 * Télécharger le ZIP en cliquant [ici](https://github.com/Eoxia/wpshop/archive/2.0.0.zip).
 * Dézipper et envoyer le dossier wpshop dans le répertoire /wp-content/plugins/
 * Activer le plugin dans le menu Extensions de votre back office WordPress.
+
+## Commencer à vendre
+
+Avant de pouvoir vendre vos produits, vous devez configurer votre boutique en ligne.
+
+Pour ce faire rendons nous dans l'administration.
+
+Les éléments obligatoires pour le bon fonctionnement sont les suivants:
+
+* Ajouter les pages de WPshop dans un menu WordPress:
+** Boutique
+** Panier
+** Mon compte
+
+* Créer des produits ([Comment créer des produits ?](https://github.com/Eoxia/wpshop-docs/blob/master/pages/product.md))
+
+## Tester votre boutique
+
+* Rendez vous sur votre boutique puis sur la page "Boutique"
+* Ajouter un ou plusieurs produits dans le panier
+* Rendez vous dans la page "Panier"
+* Cliquer sur "Procéder au paiement"
+* Remplissez vos informations personnelles et d'expédition
+* Choisisez votre Moyen de paiement (Par défaut: Chèque ou Paiement en boutique. [Comment configurer les méthodes de paiement](https://github.com/Eoxia/wpshop-docs/blob/master/pages/configure.md))
+* Cocher la case "J'accepte les conditions générales de vente et la politique de confidentialité".
+* Cliquer sur "Demander un devis".
+
+Avec les éléments ci-dessus, vos clients ont la possibilités de faire des demandes de devis selon leur panier.
+
+Seulement des devis ? Comment faire pour que le client puisse payer directement sur ma boutique en ligne ? 
+Très bonne question, nous allons voir comment accepter des paiements directement depuis votre boutique en ligne dans le chapitre suivant.
+
+## La fusion avec Dolibarr
+
+Nous utilisons Dolibarr pour contrôller les données telle que les commandes, factures.
+Dolibarr permet d'assurer que votre boutique en ligne est conforme au norme RGPD.
+
+Rendez vous sur [cette page](https://www.dolibarr.fr/) pour installer dolibarr.
+
+Une fois l'installation effectué, nous allons devoir ajouter un module à Dolibarr afin de gérer la synchronisation automatique des données entre les deux plateformes respectives: WordPress et Dolibarr.
+
+[Description du module WPshop pour dolibarr](https://github.com/Eoxia/wpshop-docs/blob/master/pages/dolibarr/module-wpshop.md)
+
+Télécharger le ZIP en cliquant [ici](https://github.com/Eoxia/doli-wpshop/archive/master.zip).
+* Dézipper et envoyer le dossier wpshop dans le répertoire /custom/.	
+* Activer le module dans le menu Modules/Applications en pied de page sur votre Dolibarr.	
+* Toujours sur la même page, cliquer sur "Configuration" sur le module WPshop.
+
+Cliquer sur "Modifier" sur la page de configuration du module, nous avons maintenant 3 champs:
+
+* WordPress URL: https://<votrewordpress.ext>
+* OAuth2 Client ID: **L'ID client** récupéré depuis WordPress
+* OAuth2 Client Secret: **Le Secret Client** récupéré depuis WordPress.
+
+
