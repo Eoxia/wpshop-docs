@@ -63,7 +63,7 @@ Pour effectuer cette synchronisation nous avons besoin de "token", ce sont des s
 * Rendez vous dans l'administration de WordPress
 * Aller sur votre profil utilisateur (https://<votrewordpress.ext/profile.php)
 * Dans la section WPshopAPI nous retrouvons le champ API Key.
-* Cliquer sur l'icone: ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/generate-api-key.png)
+* Cliquer sur l'icone: ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/generate-api-key.PNG)
 * Le token apparaît dans le champ vide auparavant.
 
 ### Générer le token sur Dolibarr
@@ -71,7 +71,7 @@ Pour effectuer cette synchronisation nous avons besoin de "token", ce sont des s
 * Rendez vous dans l'administration de Dolibarr
 * Cliquez sur le bouton "Super Admin" tout en au à droite de l'application
 * Puis le bouton "Modifier"
-* Cherchez le champ "Clé pour l'API" puis cliquer sur l'icone: ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/generate-api-key-doli.png)
+* Cherchez le champ "Clé pour l'API" puis cliquer sur l'icone: ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/generate-api-key-doli.PNG)
 * Le token apparaît dans le champ vide auparavant.
 
 [Description du module WPshop pour dolibarr](https://github.com/Eoxia/wpshop-docs/blob/master/pages/dolibarr/module-wpshop.md)
