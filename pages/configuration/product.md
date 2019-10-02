@@ -41,7 +41,7 @@ Remplisser le formulaire puis cliquer sur "Publier".
 
 Rendez vous dans la page **Produits** puis cliquer sur le bouton "Modifier" qui apparaît au survol de votre souris de produit à modifier.
 
-L'interface est similaire à celle de [Créer un produit](https://github.com/Eoxia/wpshop-docs/blob/master/pages/product.md#cr%C3%A9er-un-produit)
+L'interface est similaire à celle de [Créer un produit](https://github.com/Eoxia/wpshop-docs/blob/master/pages/configuration/product.md#cr%C3%A9er-un-produit)
 
 ## Modification rapide
 
