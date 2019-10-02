@@ -13,7 +13,7 @@
 
 0 Pas payée, 1 payée.
 
-#### Chèque 
+#### Chèque
 
 * En attente du chèque
 * Payée

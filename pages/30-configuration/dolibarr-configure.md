@@ -1,1 +1,0 @@
-# Configurer Dolibarr pour WPshop

@@ -1,7 +1,6 @@
-# Gérer les produits
+# Produits
 
 Sur cette page, nous allons pouvoir créer/éditer et configurer nos produits, que ce soit des produits simples, ou des produits téléchargables.
-
 Les produits de votre boutique sont accessibles en cliquant sur la page **Produits**.
 
 ## La page des Produits
@@ -95,7 +94,3 @@ Pour rendre votre produit téléchargeable, il suffit d'activer l'option "Produi
 Une fois l'option activé, veuillez cliquer sur "Add an attached file" puis choissisez le fichier. Vous pouvez attacher plusieurs fichiers au produit.
 
 Pour confirmer l'ajout des fichiers au produit, veuillez cliquer sur le bouton "Publier" ou "Mettre à jour".
-
-
-
-
