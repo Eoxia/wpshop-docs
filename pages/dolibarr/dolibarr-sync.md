@@ -1,4 +1,3 @@
-
 # WPshop avec Dolibarr
 
 **Ceci est la documentation utilisateur pour l'association et la synchronisation de données entre WPshop et Dolibarr.**
