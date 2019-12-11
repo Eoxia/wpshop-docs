@@ -2,7 +2,7 @@
 
 ## Les factures restent impayées
 
-Vous devez configurer une banque sur Dolibarr.
+Vous devez (créer)[https://wiki.dolibarr.org/index.php/Module_Banques_et_Caisses] une banque sur Dolibarr.
 
 ## Les paiements stripe ne passent pas la commande en payée et aucune facture n'est créée
 
