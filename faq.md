@@ -1,6 +1,6 @@
 # FAQ
 
-## Les factures restent en impayé
+## Les factures restent impayées
 
 Vous devez configurer une banque sur Dolibarr.
 
