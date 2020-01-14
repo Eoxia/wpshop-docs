@@ -81,9 +81,9 @@ data post
 ```json
 {
     product_id: {dolibarr_product_id}
-    attributes_data {
-        1: 5,
-        3: 10
+    "attributes_data": {
+        "1": 5,
+        "3": 10
     }
 }
 ```
@@ -93,9 +93,9 @@ attributes_data est un tableau contenant en clé l'ID de l'attribut de dolibarr 
 Par exemple selon le retour JSON de la route précédente:
 
 ```json
-attributes_data: {
-    1: 5,
-    3: 10
+"attributes_data": {
+    "1": 5,
+    "3": 10
 }
 ```
 
@@ -104,3 +104,17 @@ La valeur 5 correspond à la valeur E8
 
 La clé 3 correspond à l'attribut FCN_VC
 La valeur 10 correspond à la valeur POLI_0.00_1.00
+
+Cette exemple vas retourner:
+
+```json
+{
+    "id": "6",
+    "fk_product_parent": "1",
+    "fk_product_child": "7",
+    "variation_price": "100",
+    "variation_price_percentage": "0",
+    "variation_weight": "0",
+    "entity": 1
+}
+```
