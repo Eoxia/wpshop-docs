@@ -1,4 +1,4 @@
-# Gestion des variantes
+# Gestion des variations des prix
 
 
 ## Public API Key
