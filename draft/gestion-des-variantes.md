@@ -3,7 +3,7 @@
 
 ## Public API Key
 
-La clé publique correspond tout simplement à un user dolibarr avec seulement des droits de lecture.
+La clé publique correspond à un user dolibarr avec seulement des droits de lecture au niveau des permissions.
 
 Pour toute les requêtes effectuées, vous devez fournir le header DOLAPIKEY avec la valeur dolibarr_public_key present dans l'objet:
 
