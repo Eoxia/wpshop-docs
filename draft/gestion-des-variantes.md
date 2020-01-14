@@ -11,11 +11,11 @@ scriptParams.dolibarr_public_key
 
 ## Les routes:
 
-Pour récupérer les attributs d'un produit variable:
+### Pour récupérer les attributs d'un produit variable
 
 {product_id} = L'ID du produit dans dolibarr.
 
-{dolibarr_route}/api/index.php/wpshop/product/attribute?id={product_id}
+GET {dolibarr_route}/api/index.php/wpshop/product/attribute?id={product_id}
 
 Retournes par exemple:
 
@@ -73,3 +73,34 @@ Retournes par exemple:
 ]
 ```
 
+### Pour récupérer le produit enfant selon les attributs:
+
+POST {dolibarr_url}api/index.php/wpshop/object/get/child
+
+data post
+```json
+{
+    product_id: {dolibarr_product_id}
+    attributes_data {
+        1: 5,
+        3: 10
+    }
+}
+```
+
+attributes_data est un tableau contenant en clé l'ID de l'attribut de dolibarr et en valeur l'ID de la valeur de l'attribut.
+
+Par exemple selon le retour JSON de la route précédente:
+
+```json
+attributes_data: {
+    1: 5,
+    3: 10
+}
+```
+
+La clé 1 correspond à l'attribut EP_VC
+La valeur 5 correspond à la valeur E8
+
+La clé 3 correspond à l'attribut FCN_VC
+La valeur 10 correspond à la valeur POLI_0.00_1.00
