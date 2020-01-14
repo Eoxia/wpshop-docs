@@ -80,7 +80,7 @@ POST {dolibarr_url}api/index.php/wpshop/object/get/child
 data post
 ```json
 {
-    product_id: {dolibarr_product_id}
+    "product_id": "{dolibarr_product_id}",
     "attributes_data": {
         "1": 5,
         "3": 10
