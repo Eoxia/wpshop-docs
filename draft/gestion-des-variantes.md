@@ -19,6 +19,7 @@ Pour récupérer les attributs d'un produit variable:
 
 Retournes par exemple:
 
+```json
 [
     {
         "id": "1",
@@ -70,4 +71,5 @@ Retournes par exemple:
         ]
     }
 ]
+```
 
