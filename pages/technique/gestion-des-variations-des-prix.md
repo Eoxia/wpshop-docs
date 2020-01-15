@@ -5,7 +5,7 @@
 
 La clé publique correspond à un user dolibarr avec seulement des droits de lecture au niveau des permissions.
 
-Pour toute les requêtes effectuées, vous devez fournir le header DOLAPIKEY avec la valeur dolibarr_public_key present dans l'objet:
+Pour toutes les requêtes effectuées, vous devez fournir le header DOLAPIKEY avec la valeur dolibarr_public_key present dans l'objet:
 
 scriptParams.dolibarr_public_key
 
