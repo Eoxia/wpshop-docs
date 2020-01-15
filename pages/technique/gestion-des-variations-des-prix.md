@@ -75,7 +75,7 @@ Retournes par exemple:
 
 ### Pour récupérer le produit enfant selon les attributs:
 
-POST {dolibarr_url}api/index.php/wpshop/object/get/child
+POST {dolibarr_url}/api/index.php/wpshop/object/get/child
 
 data post
 ```json
