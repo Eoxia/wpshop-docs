@@ -1,0 +1,8 @@
+Tier + contact que sur WPShop 2
+___________________________
+
+Si dolibarr est active on bloque l'accès au compte en indiquant:
+
+"Votre compte est bloqué veuillez contacter le support."
+
+L'accès au compte est débloqué dés lors que le tier associé à l'utilisateur est relié à un utilisateur/tier de dolibarr.
