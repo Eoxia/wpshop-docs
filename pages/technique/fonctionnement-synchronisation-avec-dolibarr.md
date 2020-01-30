@@ -9,7 +9,6 @@ Une entitée peut être associée si celle-ci ne l'es pas déjà.
 ## Synchronisation
 
 Explication de la synchronisation des données entre dolibarr et WPshop.
-Chaque entitée peut être synchroniser depuis WP vers Dolibarr ou vice versa.
 
 ### Les différents moyen de synchroniser
 
