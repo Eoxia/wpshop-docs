@@ -1,4 +1,4 @@
-# WPshop avec Dolibarr
+# WPshop avec Dolibarr (Deprecated, cette documentation n'est plus à jour 30/01/2020)
 
 **Ceci est la documentation technique pour les développeurs pour l'association et la synchronisation de données entre WPshop et Dolibarr.**
 
