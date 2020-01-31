@@ -66,7 +66,7 @@ WP permet seulement d'entrée les données d'un tier dans le formulaire présent
 
 ** Cette donnée provient du formulaire dans la page du tunnel de vente.
 
-
+**Manque l'ajout de l'entrée dans la table llx_wpshop avec le sha256 afin de confirmer la synchro**
 
 ### Création de la propal
 ### Création de la commande
