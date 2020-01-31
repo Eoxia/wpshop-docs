@@ -1,14 +1,15 @@
-# Fonctionnement de la synchronisation avec Dolibarr.
+# Fonctionnement de la synchronisation des données.
 
-Dolibarr contrôle les données
+Si un ERP est présent, il pilotera les données 
+Si aucun ERP n'est présent seul une partie des données sera stocké dans WPShop (à lire dans la partie tunnel de vente)
 
 ## Association
 
-Une entitée peut être associée si celle-ci ne l'es pas déjà.
+Afin de synchroniser une entitée elle devra être associée entre l'ERP et WPShop. Cette opération peut être réalisée manuellement à postériori
 
 ## Synchronisation
 
-Explication de la synchronisation des données entre dolibarr et WPshop.
+Explication de la synchronisation des données entre Dolibarr qui est l'ERP natif de WPshop.
 
 ### Les différents moyen de synchroniser
 
@@ -25,8 +26,6 @@ Les 3 cas ont le même fonctionnement de synchronisation, c'est seulement le typ
 Lors de la synchronisation des données d'un tier, nous synchronisons également ses contacts/adresses.
 
 Pour voir les données synchronisées: https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-third-parties/class/class-doli-third-parties.php
-
-
 
 
 #### Commandes
@@ -50,7 +49,7 @@ Dans l'ordre:
 6. Création de la commande
 7. Création de la facture
 
-### Création tier et contact/adresse associé
+### Création d'un tier et contact/adresse associé
 
 WP permet seulement d'entrée les données d'un tier dans le formulaire présent sur la page du tunnel de vente puis les envoies directement à dolibarr sans contrôle. C'est dolibarr qui va vérifier les entrées utilisateurs puis confirmer à WordPress que tout est OK.
 
@@ -79,14 +78,8 @@ Synchronisation et pilotage de données avec Dolibarr
 **Manque l'ajout de l'entrée dans la table llx_wpshop avec le sha256 afin de confirmer la synchro**
 
 ### Création devis et affichage dans le compte
-
-
 ### Création de la proposition commerciale
-
-
 ### Création de la commande
 ### Création de la facture
-
 ## Les cas de désynchronisation
-
 ### Re-synchroniser
