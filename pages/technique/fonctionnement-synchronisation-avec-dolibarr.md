@@ -46,6 +46,8 @@ Dans l'ordre:
 
 ### Création du tier
 
+WP permet seulement d'entrée les données d'un tier dans le formulaire présent sur la page du tunnel de vente puis les envoies directement à dolibarr sans contrôle. C'est dolibarr qui vas vérifier les entrées utilisateurs puis confirmer à WP que tout est OK.
+
 1. Création du tier dans WP
 2. Création du contact dans WP
 3. Liaison du contact au tier (contact_ids)
@@ -62,7 +64,7 @@ Dans l'ordre:
 - (int) client: 1
 - (string) code_client: "auto"
 
-* Cette donnée provient du formulaire dans la page du tunnel de vente.
+** Cette donnée provient du formulaire dans la page du tunnel de vente.
 
 
 
