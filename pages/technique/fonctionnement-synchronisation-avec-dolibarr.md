@@ -36,6 +36,40 @@ Pour voir les données synchronisées: https://github.com/Eoxia/wpshop/blob/2.0.
 
 ## Tunnel de vente
 
+Déroulement du tunnel de vente en terme de data
+
+Dans l'ordre:
+1. Création du tier
+2. Création de la propal
+3. Création de la commande
+4. Création de la facture
+
+### Création du tier
+
+1. Création du tier dans WP
+2. Création du contact dans WP
+3. Liaison du contact au tier (contact_ids)
+4. Appel la route POST /thirdparties de dolibarr avec les données suivantes:
+
+(string) name: "Customer Name"*
+(string) country: "Country Name"*
+(int) country_id: 1*
+(string) address: "Address Postal"*
+(string) zip: "75000"*
+(string) state: "State Name"*
+(string) phone: "Phone number"*
+(string) town: "Town Name"*
+(int) client: 1
+(string) code_client: "auto"
+
+** Cette donnée provient du formulaire dans la page du tunnel de vente.
+
+
+
+### Création de la propal
+### Création de la commande
+### Création de la facture
+
 ## Les cas de désynchronisation
 
 ### Re-synchroniser
