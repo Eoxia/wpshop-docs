@@ -22,9 +22,12 @@ Les 3 cas ont le même fonctionnement de synchronisation, c'est seulement le typ
 
 #### Tiers
 
-Lors de la synchronisation des données d'un tier, nous synchronisons également ses contacts.
+Lors de la synchronisation des données d'un tier, nous synchronisons également ses contacts/adresses.
 
 Pour voir les données synchronisées: https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-third-parties/class/class-doli-third-parties.php
+
+
+
 
 #### Commandes
 
@@ -40,19 +43,24 @@ Déroulement du tunnel de vente en terme de data
 
 Dans l'ordre:
 1. Création du tier
-2. Création de la propal
-3. Création de la commande
-4. Création de la facture
+2. Création d'un users
+3. Devis
+4. Connection avec un ERP (par défaut Dolibarr)
+5. Création de la proposition commerciale
+6. Création de la commande
+7. Création de la facture
 
-### Création du tier
+### Création tier et contact/adresse associé
 
-WP permet seulement d'entrée les données d'un tier dans le formulaire présent sur la page du tunnel de vente puis les envoies directement à dolibarr sans contrôle. C'est dolibarr qui vas vérifier les entrées utilisateurs puis confirmer à WP que tout est OK.
+WP permet seulement d'entrée les données d'un tier dans le formulaire présent sur la page du tunnel de vente puis les envoies directement à dolibarr sans contrôle. C'est dolibarr qui va vérifier les entrées utilisateurs puis confirmer à WordPress que tout est OK.
 
-1. Création du tier dans WP
-2. Création du contact dans WP
-3. Liaison du contact au tier (contact_ids)
-4. Appel la route POST /thirdparties de dolibarr avec les données suivantes:
+1. Création du tier dans WordPress (Table wp_posts)
+2. Création du users dans WordPress (Table wp_users)
+2.1. Liaison du user au tier dans WordPress (Table wp_postmeta contact_ids)
 
+Si un erp est connecté la fonction continue (l'erp par défaut est Dolibarr) sinon Sans ERP connecté les données resteront dans WordPress.
+Synchronisation et pilotage de données avec Dolibarr
+2.1.1 Appel la route POST /thirdparties de Dolibarr avec les données suivantes (Création dans Dolibarr):
 - (string) name: "Customer Name"*
 - (string) country: "Country Name"*
 - (int) country_id: 1*
@@ -63,12 +71,19 @@ WP permet seulement d'entrée les données d'un tier dans le formulaire présent
 - (string) town: "Town Name"*
 - (int) client: 1
 - (string) code_client: "auto"
+2.1.2 Contact/adresse appel de la route (
+ -...@todo
 
-** Cette donnée provient du formulaire dans la page du tunnel de vente.
+* Cette donnée provient du formulaire dans la page du tunnel de vente.
 
 **Manque l'ajout de l'entrée dans la table llx_wpshop avec le sha256 afin de confirmer la synchro**
 
-### Création de la propal
+### Création devis et affichage dans le compte
+
+
+### Création de la proposition commerciale
+
+
 ### Création de la commande
 ### Création de la facture
 
