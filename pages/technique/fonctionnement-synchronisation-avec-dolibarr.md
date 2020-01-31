@@ -51,18 +51,18 @@ Dans l'ordre:
 3. Liaison du contact au tier (contact_ids)
 4. Appel la route POST /thirdparties de dolibarr avec les données suivantes:
 
-(string) name: "Customer Name"*
-(string) country: "Country Name"*
-(int) country_id: 1*
-(string) address: "Address Postal"*
-(string) zip: "75000"*
-(string) state: "State Name"*
-(string) phone: "Phone number"*
-(string) town: "Town Name"*
-(int) client: 1
-(string) code_client: "auto"
+- (string) name: "Customer Name"*
+- (string) country: "Country Name"*
+- (int) country_id: 1*
+- (string) address: "Address Postal"*
+- (string) zip: "75000"*
+- (string) state: "State Name"*
+- (string) phone: "Phone number"*
+- (string) town: "Town Name"*
+- (int) client: 1
+- (string) code_client: "auto"
 
-** Cette donnée provient du formulaire dans la page du tunnel de vente.
+* Cette donnée provient du formulaire dans la page du tunnel de vente.
 
 
 
