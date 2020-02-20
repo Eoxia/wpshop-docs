@@ -42,6 +42,13 @@ Du coté de WordPress, rendez-vous dans "WPshop -> Réglages" :
 * Dolibarr URL: https://<votrewordpress.ext>
 * Dolibarr sercret: La clé récupérée depuis **Dolibarr**
 
+### Installation des attributs nécessaires
+
+Rendez-vous dans la page "Accueil" > "Configuration" > "Modules/Application" > "Produits" > "Attributs supplémentaires".
+
+* Rajouter un attribut personnalisé en suivant précisément la capture ci-dessous :
+
+
 ### Problèmes connues
 
 #### Connexion WPshop vers Dolibarr ne fonctionne pas
