@@ -48,7 +48,7 @@ Rendez-vous dans la page "Accueil" > "Configuration" > "Modules/Application" > "
 
 * Rajouter un attribut personnalisé en suivant précisément la capture ci-dessous :
 
-[](https://github.com/Eoxia/wpshop-docs/blob/master/images/attribut-sur-le-web.PNG)
+![Attribut personnalisé](https://github.com/Eoxia/wpshop-docs/blob/master/images/attribut-sur-le-web.PNG)
 
 
 ### Problèmes connues
