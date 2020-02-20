@@ -54,7 +54,7 @@ Si vous vous connectez sur la rest API de dolibarr (a finir)
 !Ce fonctionnement vas être changé très bientot!
 
 Si vous rencontrez ce message, c'est que la connexion vers WPshop ne fonctionne pas.
-[](https://github.com/Eoxia/wpshop-docs/blob/master/images/dolibarrconnexionfailed.png)
+[](https://github.com/Eoxia/wpshop-docs/blob/master/images/dolibarrconnexionfailed.png?raw=true)
 
 Vous devez autoriser l'adresse IP de dolibarr depuis notre framework.
 
