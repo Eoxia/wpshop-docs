@@ -54,7 +54,7 @@ Si vous vous connectez sur la rest API de dolibarr (a finir)
 !Ce fonctionnement vas être changé très bientot!
 
 Si vous rencontrez ce message, c'est que la connexion vers WPshop ne fonctionne pas.
-[Connexion dolibarr échouée](https://github.com/Eoxia/wpshop-docs/blob/master/images/dolibarrconnexionfailed.png?raw=true)
+![Connexion dolibarr échouée](https://github.com/Eoxia/wpshop-docs/blob/master/images/dolibarrconnexionfailed.png?raw=true)
 
 Vous devez autoriser l'adresse IP de dolibarr depuis notre framework.
 
@@ -62,11 +62,13 @@ Connecter vous en FTP sur le serveur du WordPress contenant le WPshop puis aller
 
 Dans l'entrée allowed_ip_for_unauthentified_access_rest ajouter l'adresse IP du serveur contenant le dolibarr.
 
+```
 "allowed_ip_for_unauthentified_access_rest": [
 		"127.0.0.1",
 		"::1",
     "ADDRESS_IP_DOLIBARR"
 	]
+```
   
   La connexion doit être effectif maintenant, si celà ne marche toujours pas, veuillez ouvrir une issue https://github.com/Eoxia/wpshop-docs/issues
 
