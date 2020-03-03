@@ -1,9 +1,10 @@
-# Extension WPshop pour Dolibarr (Depreacted, cette méthode n'est plus celle utilisée. 30/01/2020)
+# Extension WPshop pour Dolibarr
 
 ## Pourquoi ?
 
 Nous avons besoin d'une cohérence des données entre les deux plateformes.
 Si la date de modification des deux plateformes sont équivalentes, celà veut dire que les données sont cohérentes.
+Intégration du SHA256 en remplacement des dates @todo
 
 Le module Évènements/Agenda de Dolibarr permet d'ajouter une date lors de certains évènements:
 
