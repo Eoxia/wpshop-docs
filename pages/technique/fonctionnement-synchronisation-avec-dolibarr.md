@@ -1,11 +1,6 @@
 # Fonctionnement de la synchronisation des données.
 
-Si un ERP est présent, il pilotera les données 
-Si aucun ERP n'est présent seul une partie des données sera stocké dans WPShop (à lire dans la partie tunnel de vente)
-
-## Association
-
-Afin de synchroniser une entitée elle devra être associée entre l'ERP et WPShop. Cette opération peut être réalisée manuellement à postériori
+Si un ERP est présent, il pilotera les données.
 
 ## Synchronisation
 
@@ -21,11 +16,12 @@ Les 3 cas ont le même fonctionnement de synchronisation, c'est seulement le typ
 
 ### Les données synchronisées selon les entitées
 
-#### Tiers
+#### Tiers et contacts/adresses
 
 Lors de la synchronisation des données d'un tier, nous synchronisons également ses contacts/adresses.
+Pour voir les données synchronisées:
 
-Pour voir les données synchronisées: https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-third-parties/class/class-doli-third-parties.php
+https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-third-parties/class/class-doli-third-parties.php
 
 
 #### Commandes
@@ -33,8 +29,19 @@ Pour voir les données synchronisées: https://github.com/Eoxia/wpshop/blob/2.0.
 
 
 #### Produits
+La synchronisation est géré avec les données du SHA256 :
+https://github.com/Eoxia/wpshop/blob/fa07a2616ed179200880770123bb006b0957d060/modules/doli-sync/action/class-doli-sync-action.php
 
-### Déroulement d'une synchronisation d'une entitée
+Pour voir les données synchronisées: 
+https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-products/class/class-doli-products.php#L50
+
+### Déroulement de la synchronisation d'une entitée
+
+1.Comparaison du SHA256
+2.Si le SHA256 est différent les donnes sont écrasées par les données de l'ERP
+3.SI OK on régenère le SHA256 
+4.Stockage dans WordPress (wp_postmeta) dans les métas selon l'entité (Exemple produits dans postmeta, contact/adresse dans usersmeta)
+5.Stockage dans Dolibarr
 
 ## Tunnel de vente
 
