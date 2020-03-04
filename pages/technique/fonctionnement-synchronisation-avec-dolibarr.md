@@ -16,6 +16,8 @@ Les 3 cas ont le même fonctionnement de synchronisation, c'est seulement le typ
 
 ### Les données synchronisées selon les entitées
 
+La cohérence au niveau des données est certifiée grâce à un sha256 généré dans les deux plateformes lors de la synchronisation.
+
 #### Tiers et contacts/adresses
 
 Lors de la synchronisation des données d'un tier, nous synchronisons également ses contacts/adresses.
@@ -23,22 +25,24 @@ Pour voir les données synchronisées:
 
 https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-third-parties/class/class-doli-third-parties.php
 
+Les données utilisées pour le sha256 pour certifié un tier et ses contacts/adresses sont les suivantes:
+https://github.com/Eoxia/wpshop/commit/0a28ce1b1a4c4146738b2583afbb8e7fa9a1c57d#diff-1d6565ce1752cb775c8c8a8387e737e0R115
+
+#### Devis
+
+En cours...
 
 #### Commandes
 
-
+En cours...
 
 #### Produits
 
 Pour voir les données synchronisées: 
 https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-products/class/class-doli-products.php#L50
 
-La cohérence au niveau des données est certifiée grâce à un sha256 généré dans les deux plateformes lors de la synchronisation.
-
 Les données utilisées pour le sha256 pour certifié un produit sont les suivantes:
-
 https://github.com/Eoxia/wpshop/blob/a62f67e5860f1f52e2f584f5150b47df27a49aa9/modules/doli-products/class/class-doli-products.php#L77
-
 
 ### Déroulement de la synchronisation d'une entitée
 
