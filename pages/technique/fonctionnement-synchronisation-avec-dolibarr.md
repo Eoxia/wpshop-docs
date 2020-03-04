@@ -29,19 +29,24 @@ https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-third-parties/class/clas
 
 
 #### Produits
-La synchronisation est géré avec les données du SHA256 :
-https://github.com/Eoxia/wpshop/blob/fa07a2616ed179200880770123bb006b0957d060/modules/doli-sync/action/class-doli-sync-action.php
 
 Pour voir les données synchronisées: 
 https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-products/class/class-doli-products.php#L50
 
+La cohérence au niveau des données est certifiée grâce à un sha256 généré dans les deux plateformes lors de la synchronisation.
+
+Les données utilisées pour le sha256 pour certifié un produit sont les suivantes:
+
+https://github.com/Eoxia/wpshop/blob/a62f67e5860f1f52e2f584f5150b47df27a49aa9/modules/doli-products/class/class-doli-products.php#L77
+
+
 ### Déroulement de la synchronisation d'une entitée
 
-1.Comparaison du SHA256
-2.Si le SHA256 est différent les donnes sont écrasées par les données de l'ERP
-3.SI OK on régenère le SHA256 
-4.Stockage dans WordPress (wp_postmeta) dans les métas selon l'entité (Exemple produits dans postmeta, contact/adresse dans usersmeta)
-5.Stockage dans Dolibarr
+1. Comparaison du SHA256
+2. Si le SHA256 est différent les donnes sont écrasées par les données de l'ERP
+3. SI OK on régenère le SHA256 
+4. Stockage dans WordPress (wp_postmeta) dans les métas selon l'entité (Exemple produits dans postmeta, contact/adresse dans usersmeta)
+5. Stockage dans Dolibarr
 
 ## Tunnel de vente
 
