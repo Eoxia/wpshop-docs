@@ -23,18 +23,19 @@ La cohérence au niveau des données est certifiée grâce à un sha256 génér�
 Lors de la synchronisation des données d'un tier, nous synchronisons également ses contacts/adresses.
 Pour voir les données synchronisées:
 
-https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-third-parties/class/class-doli-third-parties.php
+https://github.com/Eoxia/wpshop/blob/5768c56e70529ac07686759d204d16e3aaf528e4/modules/doli-proposals/class/class-doli-proposals.php#L40
 
 Les données utilisées pour le sha256 pour certifié un tier et ses contacts/adresses sont les suivantes:
 https://github.com/Eoxia/wpshop/commit/0a28ce1b1a4c4146738b2583afbb8e7fa9a1c57d#diff-1d6565ce1752cb775c8c8a8387e737e0R115
 
 #### Devis
 
-En cours...
+Pour voir les données synchronisées:
 
-#### Commandes
+https://github.com/Eoxia/wpshop/blob/2.0.0/modules/doli-third-parties/class/class-doli-third-parties.php
 
-En cours...
+Les données utilisées pour le sha256 pour certifié la synchronisation du devis sont les suivantes:
+https://github.com/Eoxia/wpshop/blob/5768c56e70529ac07686759d204d16e3aaf528e4/modules/doli-proposals/class/class-doli-proposals.php#L108
 
 #### Produits
 
