@@ -21,6 +21,6 @@
 WPshop 2 vous permet de tenir un catalogue de présentation.
 Pour pouvoir vendre vos produits, il vous faut associer un ERP à votre site WordPress.
 
-* [Installer Dolibarr](https://github.com/Eoxia/wpshop-docs/blob/master/pages/installation/dolibarr.md)
+* [Installer Dolibarr](https://github.com/Eoxia/wpshop-docs/blob/master/pages/installation/erp-dolibarr.md)
 * Installer Odoo *A venir*
 * Votre ERP ? [Contactez-nous](https://www.eoxia.com/contact/)
