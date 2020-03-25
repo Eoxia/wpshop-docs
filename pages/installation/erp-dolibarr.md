@@ -35,12 +35,12 @@ Pour pouvoir associer les deux, nous allons devoir installer et configurer un mo
 Toujours sur Dolibarr, cliquez sur "Modifier" sur la page de configuration du module :
 
 * WordPress URL: <https://<votredolibarr.ext>
-* WordPress sercret: La clé récupéré depuis **WordPress**
+* WordPress secret: La clé récupéré depuis **WordPress**
 
 Du coté de WordPress, rendez-vous dans "WPshop -> Réglages" :
 
 * Dolibarr URL: https://<votrewordpress.ext>
-* Dolibarr sercret: La clé récupérée depuis **Dolibarr**
+* Dolibarr secret: La clé récupérée depuis **Dolibarr**
 
 ### Problèmes connues
 
