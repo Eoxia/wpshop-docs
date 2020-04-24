@@ -1,3 +1,5 @@
+# Configuer PayPal
+
 Configuration de PayPal pour redirigé vos clients vers le site sécurisé PayPal pour payer sa commande.
 
 ## Prérequis
