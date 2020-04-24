@@ -1,3 +1,4 @@
+# Configurer Stripe
 
 Configuration de Stripe pour redirigé vos clients vers le site sécurisé Stripe pour payer sa commande.
 
@@ -27,3 +28,22 @@ Dans le tableau "Clé standard" vous retrouver vos deux clés à utiliser pour l
 6. Enregister vos modifications en cliquant sur "Save Changes"
 
 ![](https://github.com/Eoxia/wpshop-docs/blob/master/images/stripe.PNG)
+
+## Ajout d'un crochet web
+
+Pour avoir des informations sur la commande, comme le status si celle si 'est bien payé, il faut ajouter un crochet web sur votre compte Sripte qui vas permettre de communiquer à WPShop le status de la commande.
+
+Dans stripe, cliquez sur "Developpeurs" dans le menu de gauche puis "Webhooks".
+
+Enfin dans la section "Endpoints recevant les évènements de votre compte" cliquez sur "Ajouter un endpoint".
+
+URL d'endpoint: <votre-wpshop.com/wp-json/wpshop/v2/wps_gateway_stripe/>
+Description: Ce que vous voulez
+Version: Votre version actuelle
+Événements à envoyer: Cliquer sur "recevez tous les événements"
+
+Puis "Ajouter un endpoint".
+
+### Environnement de test
+
+Pour mêttre en place un environnement de test, la procédure est similaire, mais selon se passe dans le menu "Environnement de test"
