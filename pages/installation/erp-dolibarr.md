@@ -26,7 +26,7 @@ Pour pouvoir associer les deux, nous allons devoir installer et configurer un mo
 
 ### Installation du module
 
-* Télécharger le ZIP en cliquant [ici](https://wpshop.fr/wp-content/uploads/module_wpshop-0.1.zip).
+* Télécharger le ZIP en cliquant [sur github DolibarrWshop](https://github.com/Eoxia/dolibarrwpshop).
 * Dézipper et envoyer le dossier wpshop dans le répertoire /custom/ de votre dossier Dolibarr.
 * Activer le module dans le menu Modules/Applications en pied de page sur votre Dolibarr.
 
