@@ -70,7 +70,7 @@ Cliquer sur "Enregistrer les modifications" pour valider vos modifications.
 
 #### Configurer PayPal
 
-[Cliquer ici pour avoir plus de détails sur la mise en place de PayPal](https://github.com)
+[Cliquer ici pour avoir plus de détails sur la mise en place de PayPal](https://github.com/Eoxia/wpshop-docs/blob/master/pages/fonctionnalites/configurer-paypal.md)
 
 Ce formulaire est similaire que l'interface "Modifier une méthode de paiement" avec 2 champs supplémentaires:
 
@@ -81,7 +81,7 @@ Cliquer sur "Enregistrer les modifications" pour valider vos modifications.
 
 #### Configurer Stripe
 
-[Cliquer ici pour avoir plus de détails sur la mise en place de Stripe](https://github.com)
+[Cliquer ici pour avoir plus de détails sur la mise en place de Stripe](https://github.com/Eoxia/wpshop-docs/blob/master/pages/fonctionnalites/configurer-stripe.md)
 
 Ce formulaire est similaire que l'interface "Modifier une méthode de paiement" avec 3 champs supplémentaires:
 
